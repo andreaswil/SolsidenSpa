@@ -1,0 +1,61 @@
+#main-section-4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#main-section-4-card-1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #485167;
+}
+
+#main-section-4-card-2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #485167;
+}
+
+#main-section-4-card-3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #485167;
+}
+
+.card-box {
+    margin-left: 20px;
+    margin-right: 40px;
+    opacity: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 270px;
+    width: 200px;
+    margin-top: 70px;
+    background-color: #EAE6DA;
+    transition: opacity 2s, transform 1s;
+}
+
+.card-box:hover {
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/*Makes the card move up, creating a fade in effect combined with the cardPopin() function in animations.js*/
+
+@keyframes fadeIn {
+    from {
+        margin-top: 120px;
+    }
+    to {
+        margin-top: 70px;
+    }
+}
