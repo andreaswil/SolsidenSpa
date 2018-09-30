@@ -1,0 +1,16 @@
+#main-section-2 {
+	display: flex;
+	background-image: url("../pictures/kamera.jpg");
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 500px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #485167;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
