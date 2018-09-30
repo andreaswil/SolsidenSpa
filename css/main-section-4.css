@@ -6,7 +6,26 @@
     margin-right: auto;
     justify-content: center;
     background-color: white;
+    flex-wrap: wrap;
 
+    
+}
+
+#toppselgere-frame {
+    display:flex;
+    justify-content: center;
+    width: 1140px;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-align: center;
     
 }
 
@@ -14,20 +33,20 @@
     display: flex;
     min-width: 1140px;
     justify-content: space-between;
-    
+   
 }
 
 .product {
     display: flex;
     justify-content: center;
-    max-width: 213px;
-    max-height: 213px;
+    height: 213px;
+    width: 213px;
+    min-width: 213px;
+    min-height: 213px;
     opacity: 0;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    height: 270px;
-    width: 200px;
-    margin-top: 70px;
+    margin-top: 20px;
     transition: opacity 2s, transform 1s;
 }
 
