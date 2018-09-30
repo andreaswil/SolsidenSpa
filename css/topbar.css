@@ -21,28 +21,28 @@
     align-items: flex-end;
 }
 
-#home {
+#hjem {
     margin-left: 20px;
     margin-right: 30px;
 }
 
-#news {
+#behandlinger {
     margin-right: 30px;
 }
 
-#contact {
+#gavekort {
     margin-right: 30px;
 }
 
-#developers {
+#produkter {
     margin-right: 30px;
 }
 
-#products {
+#ledigeStillinger {
     margin-right: 30px;
 }
 
-#gallery {
+#kontaktOss {
     margin-right: 30px;
 }
 
