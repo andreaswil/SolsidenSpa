@@ -29,6 +29,8 @@
 }
 
 #circle-button-1 {
+    display: flex;
+    justify-content: center;
     width: 330px;
     height: 60px;
     background-color: #43b5a5;
@@ -41,6 +43,8 @@
 }
 
 #circle-button-2 {
+    display: flex;
+    justify-content: center;
     width: 330px;
     height: 60px;
     background-color: #43b5a5;
@@ -53,6 +57,8 @@
 }
 
 #circle-button-3 {
+    display: flex;
+    justify-content: center;
     width: 330px;
     height: 60px;
     background-color: #43b5a5;
@@ -64,3 +70,16 @@
     text-align: center;
 }
 
+.circle-button-text {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
