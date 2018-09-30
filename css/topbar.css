@@ -57,7 +57,7 @@
     justify-content: center;
     justify-content: space-evenly;
     align-items: flex-end;
-    color: #43b5a5;
+    color: #0f4a58;
     font-family: Lato;
     font-size: 14px;
     font-style: normal;
@@ -68,32 +68,7 @@
     letter-spacing: 0px;
 }
 
-/*
-#hjem {
-    /*margin-left: 20px;
-    margin-right: 30px;
-}
 
-#behandlinger {
-    margin-right: 30px;
-}
-
-#gavekort {
-    margin-right: 30px;
-}
-
-#produkter {
-    margin-right: 30px;
-}
-
-#ledigeStillinger {
-    margin-right: 30px;
-}
-
-#kontaktOss {
-    margin-right: 30px;
-}
-*/
 
 .Underline {
     background-color: white;
