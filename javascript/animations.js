@@ -33,7 +33,7 @@ $(".underline").mouseout(mouseOutMenuButtonUnderline);
 
 /* Scales the card when hovering */
 function mouseOverCardEvent(e) {
-    e.currentTarget.style.transform = "scale(1.1)";
+    e.currentTarget.style.transform = "scale(1.05)";
 }
 
 /* Scales the card back to original scale when hovering */
