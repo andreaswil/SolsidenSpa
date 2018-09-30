@@ -43,13 +43,12 @@ img {
 	width: 625px;
 	height: 700px;
     margin-right: 0px;
-   
-    
+    flex-wrap: wrap;
 }
 
 #large-picture-frame-right-upper-part{
     display: flex;
-    height: 700px;
+    height: 478px;
     width: 625px;
     justify-content: space-between;
 }
@@ -82,10 +81,18 @@ img {
     width: 284px;
 }
 
+#large-picture-frame-right-lower-part {
+    display: flex;
+    align-self: flex-end;
+    width: 625px;
+    height: 150px;
+    
+}
+
 #bottom-picture-frame {
     display:flex;
     width: 625px;
-    height: 100px;
+    height: 150px;
 }
 
 #main-section-1-buttons-frame {
