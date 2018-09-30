@@ -2,7 +2,7 @@
 /*eslint-env jquery*/
 
 /* Gets a list of the cards in main-section-3 */
-var cards = document.getElementsByClassName("card-box");
+var cards = document.getElementsByClassName("product");
 
 /*Goes through the cards list and sets the opacity to 100 in their corresponding css code*/
 /*eslint-disable*/
@@ -24,8 +24,8 @@ function CardPopout() {
 /*eslint-enable*/
 
 /* Event listeners for mouse hovering over menu buttons and cards */
-$(".card-box").mouseover(mouseOverCardEvent);
-$(".card-box").mouseout(mouseOutCardEvent);
+$(".product").mouseover(mouseOverCardEvent);
+$(".product").mouseout(mouseOutCardEvent);
 $(".menu-button").mouseover(mouseOverMenuButton);
 $(".menu-button").mouseout(mouseOutMenuButton);
 $(".underline").mouseover(mouseOverMenuButtonUnderline);
@@ -92,7 +92,7 @@ $.fn.isItVisible = function () {
 };
 
 $(window).on("resize scroll", function () {
-    if ($(".card-box").isItVisible()) {
+    if ($(".product").isItVisible()) {
         CardPopin();
     } else {
         CardPopout();
