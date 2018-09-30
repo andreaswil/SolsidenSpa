@@ -48,10 +48,6 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.icons {
-    margin-top: 20px;
-    font-size: 6em;
-}
 
 /*Makes the card move up, creating a fade in effect combined with the cardPopin() function in animations.js*/
 
