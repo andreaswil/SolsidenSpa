@@ -43,11 +43,14 @@ img {
 	width: 625px;
 	height: 700px;
     margin-right: 0px;
-    flex-direction: row;
+   
+    
 }
 
-#large-picture-fram-right-upper-part {
+#large-picture-frame-right-upper-part{
     display: flex;
+    height: 700px;
+    width: 625px;
     justify-content: space-between;
 }
 
@@ -59,7 +62,6 @@ img {
 
 #small-pictures-frame {
     display: flex;
-    
     flex-direction: column;
     justify-content: space-between;
     height: 478px;
@@ -82,6 +84,8 @@ img {
 
 #bottom-picture-frame {
     display:flex;
+    width: 625px;
+    height: 100px;
 }
 
 #main-section-1-buttons-frame {
