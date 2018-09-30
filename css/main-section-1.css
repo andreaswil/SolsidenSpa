@@ -10,7 +10,7 @@
 
 #main-section-1-pictures-frame {
     display: flex;
-    min-width: 1300px;
+    max-width: 1142px;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
@@ -30,8 +30,8 @@ img {
     border-style: solid;
     border-width: 5px;
 	background-color: white;
-	width: 625px;
-	height: 700px;	
+	width: 560px;
+    height: 599px;
 }
 
 
@@ -40,59 +40,59 @@ img {
     border-style: solid;
     border-width: 5px;
 	background-color: white;
-	width: 625px;
-	height: 700px;
+	width: 560px;
+    height: 599px;
     margin-right: 0px;
     flex-wrap: wrap;
 }
 
 #large-picture-frame-right-upper-part{
     display: flex;
-    height: 478px;
-    width: 625px;
+    height: 455px;
+    width: 560px;
     justify-content: space-between;
 }
 
 #semilarge-picture-frame {
     display: flex;
-    height: 478px;
-    width: 284px;  
+    width: 270px;
+    height: 455px;  
 }
 
 #small-pictures-frame {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 478px;
-    width: 284px;
+    height: 455px;
+    width: 270px;
     
 }
 
 #small-picture-frame-1 {
     display: flex;
-    height: 230px;
-    width: 284px;
+    width: 270px;
+    height: 218px;
 }
 
 
 #small-picture-frame-2 {
     display: flex;
-    height: 230px;
-    width: 284px;
+    width: 270px;
+    height: 218px;
 }
 
 #large-picture-frame-right-lower-part {
     display: flex;
     align-self: flex-end;
-    width: 625px;
-    height: 150px;
+    width: 560px;
+    height: 124px;
     
 }
 
 #bottom-picture-frame {
     display:flex;
-    width: 625px;
-    height: 150px;
+    width: 560px;
+    height: 124px;
 }
 
 #main-section-1-buttons-frame {
@@ -109,10 +109,14 @@ img {
   	display: flex;
     border-style: solid;
     border-width: 5px;
-	background-color: white;
+    justify-content: center;
+	background-color: #1e5a62;
 	width: 625px;
 	height: 100px;
-    
+}
+
+#large-button-left-text {
+ font-family: apercu-regular, sans-serif;   
 }
 
 #large-button-right {
