@@ -94,3 +94,23 @@
         height: 0px;
     }
 }
+
+@keyframes changeColor {
+    from {
+        color: #0f4a58;
+    }
+    
+    to {
+        color: #43b5a5;
+    }
+}
+
+@keyframes revertColor {
+    from {
+        color: #43b5a5;
+    }
+    
+    to {
+        color: #0f4a58;
+    }
+}

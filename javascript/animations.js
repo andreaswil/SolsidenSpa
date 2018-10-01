@@ -46,6 +46,9 @@ function mouseOverMenuButton(e) {
     e.target.children[0].style.animationName = "underlineVisible";
     e.target.children[0].style.animationDuration = "0.2s";
     e.target.children[0].style.height = "5px";
+    e.target.style.animationName = "changeColor";
+    e.target.style.animationDuration = "0.2s";
+    e.target.style.color = "#43b5a5";
 }
 
 /* Gets the children of the menu button (the underline), and activates the animation which makes it hidden, when the cursor leaves the menu button */
@@ -53,6 +56,9 @@ function mouseOutMenuButton(e) {
     e.target.children[0].style.animationName = "underlineHide";
     e.target.children[0].style.animationDuration = "0.2s";
     e.target.children[0].style.height = "0px";
+    e.target.style.animationName = "revertColor";
+    e.target.style.animationDuration = "0.2s";
+    e.target.style.color = "#0f4a58";
 
 }
 
@@ -61,6 +67,9 @@ function mouseOverMenuButtonUnderline(e) {
     e.currentTarget.style.animationName = "underlineVisible";
     e.currentTarget.style.animationDuration = "0.2s";
     e.currentTarget.style.height = "5px";
+    e.target.parentElement.style.animationName = "changeColor";
+    e.target.parentElement.style.animationDuration = "0.2s";
+    e.target.parentElement.style.color = "#43b5a5";
 }
 
 /* Makes the underline hide when the cursor leaves the underline */
@@ -68,6 +77,9 @@ function mouseOutMenuButtonUnderline(e) {
     e.currentTarget.style.animationName = "underlineHide";
     e.currentTarget.style.animationDuration = "0.2s";
     e.currentTarget.style.height = "0px";
+    e.target.parentElement.style.animationName = "revertColor";
+    e.target.parentElement.style.animationDuration = "0.2s";
+    e.target.parentElement.style.color = "#0f4a58";
 }
 
 /* Runs when document is finished loading, every div wrapped in a div with class cover will fade in, as to make the loading of the page more fluid */
