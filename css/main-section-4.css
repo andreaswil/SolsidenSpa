@@ -60,7 +60,7 @@
 #products-name-frame {
     display: flex;
     min-width: 1140px;
-    min-height: 200px;
+    height: 100px;
     justify-content: space-between;
     flex-direction: row;
    
@@ -74,6 +74,7 @@
     margin-right: auto;
     margin-top: 0;
     max-width: 213px;
+    height: 100px;
     
 }
 
