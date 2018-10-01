@@ -89,19 +89,29 @@ function uncover () {
     var children = $(".cover");
     for (var i = 0; i < children.length; ++i) {
         children[i].style.animationName = "whenLoadedFadeIn";
-        children[i].style.animationDuration = "2s";
+        children[i].style.animationDuration = "1s";
         children[i].style.opacity = "100";
 
     }
 }
 
 
+
+function removeLoader () {
+    document.getElementById("loader").style.display = "none";
+}
+
+
 if(document.readyState === 'ready' || document.readyState === 'complete') {
-  uncover();
+    removeLoader();
+    uncover();
+    
 } else {
   document.onreadystatechange = function () {
     if (document.readyState == "complete") {
-      uncover();
+        removeLoader();
+        uncover();
+        
     }
   }
 }
@@ -117,10 +127,10 @@ $.fn.isItVisible = function () {
     return elementBottom > viewportTop && elementTop < viewportBottom;
 };
 
-$(window).on("resize scroll", function () {
+/*$(window).on("resize scroll", function () {
     if ($(".product").isItVisible()) {
         CardPopin();
     } else {
         CardPopout();
     }
-});
+});*/
