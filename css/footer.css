@@ -10,8 +10,7 @@
     margin-left: auto;
     margin-right: auto;
     flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
+    
     width: 1140px;
     height: 270px;
 }
@@ -19,6 +18,7 @@
 #contact-us-frame {
     display: flex;
     margin-top: 50px;
+    margin-left:0px;
     max-width: 250px;
     max-height: 175px;
     flex-direction: column;
@@ -66,8 +66,9 @@
 #visit-us-frame {
     display: flex;
     margin-top: 50px;
-    max-width: 250px;
-    max-height: 175px;
+    margin-left: 50px;
+    width: 250px;
+    height: 175px;
     flex-direction: column;
 }
 
@@ -124,8 +125,8 @@
 #follow-us-frame {
     display: flex;
     margin-top: 50px;
-    width: 270px;
-    height: 240px;
+    max-width: 270px;
+    max-height: 240px;
     flex-direction: column;
 }
 
