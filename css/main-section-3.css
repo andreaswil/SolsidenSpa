@@ -25,6 +25,8 @@
 #circle-buttons-frame {
     display: flex;
     min-width: 1140px;
+    height: 100px;
+    margin-top: 5px;
     flex-direction: row;
     justify-content: space-around;
 }
