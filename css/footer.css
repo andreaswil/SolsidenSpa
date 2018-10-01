@@ -124,16 +124,122 @@
 
 #follow-us-frame {
     display: flex;
+    margin-left: 50px;
     margin-top: 50px;
-    max-width: 270px;
-    max-height: 240px;
+    width: 250px;
+    height: 175px;
+    max-width: 250px;
+    max-height: 175px;
     flex-direction: column;
 }
 
+#follow-us-header {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+}
+
+#follow-us-facebook {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+#facebook-logo {
+    display:flex;
+    margin-top: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+#facebook-text {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    margin-left: 10px;
+}
+
+#follow-us-facebook {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+#facebook-logo {
+    display:flex;
+    margin-top: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+#facebook-text {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    margin-left: 10px;
+}
+
+#follow-us-instagram {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#instagram-logo-footer {
+    display:flex;
+    margin-top: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+#instagram-text-footer {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    margin-left: 10px;
+}
+
+
+
 #giftcard-frame {
     display: flex;
+    margin-left: 50px;
     margin-top: 50px;
-    width: 270px;
-    height: 243px;
+    width: 250px;
+    height: 175px;
+    max-width: 250px;
+    max-height: 175px;
     flex-direction: column;
 }

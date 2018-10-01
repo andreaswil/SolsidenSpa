@@ -46,7 +46,9 @@
     height: 213px;
     width: 213px;
     border: 1px solid #d6d6d6;
+    
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+    
     transition: opacity 2s, transform 1s;
 }
 
@@ -55,6 +57,8 @@
     margin:auto;
     height: 180px;
     width: 19px;
+    
+    
 }
 
 #products-name-frame {
