@@ -43,9 +43,8 @@
 .product {
     background-color: white;
     display: flex;
-    justify-content: center;
-    height: 220px;
-    width: 220px;
+    height: 213px;
+    width: 213px;
     border: 1px solid #d6d6d6;
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
     transition: opacity 2s, transform 1s;
@@ -55,7 +54,7 @@
 .product-pic {
     margin:auto;
     height: 180px;
-    width: 180px;
+    width: 19px;
 }
 
 #products-name-frame {
@@ -144,10 +143,21 @@
     font-stretch: normal;
     font-weight: 400;
     letter-spacing: 0.6px;
-    margin-top: 4px;
-    
+    margin-top: 4px;    
 }
 
+.product-sale-logo {
+    display: flex;
+    width: 49.96px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#last-product {
+    display: flex;
+    margin-right: 45px;
+}
 
 /*Makes the card move up, creating a fade in effect combined with the cardPopin() function in animations.js*/
 
