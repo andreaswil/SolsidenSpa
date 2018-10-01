@@ -1,5 +1,5 @@
 #main-section-4 {
-    display:flex;
+    display: flex;
     max-height: 800px;
     max-width: 1140px;
     margin-left: auto;
@@ -8,11 +8,11 @@
     background-color: white;
     flex-wrap: wrap;
 
-    
+
 }
 
 #toppselgere-frame {
-    display:flex;
+    display: flex;
     justify-content: center;
     width: 1140px;
     height: 96px;
@@ -26,17 +26,17 @@
     font-weight: 400;
     letter-spacing: 0.6px;
     text-align: center;
-    
+
 }
 
 #product-frame {
-    display: flex; 
+    display: flex;
     min-width: 1140px;
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
-   
-   
+
+
 }
 
 
@@ -46,19 +46,18 @@
     height: 213px;
     width: 213px;
     border: 1px solid #d6d6d6;
-    
+
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
-    
     transition: opacity 2s, transform 1s;
 }
 
 
 .product-pic {
-    margin:auto;
+    margin: auto;
     height: 180px;
     width: 19px;
-    
-    
+
+
 }
 
 #products-name-frame {
@@ -67,8 +66,8 @@
     height: 100px;
     justify-content: space-between;
     flex-direction: row;
-   
-   
+
+
 }
 
 .product-name-text-frame {
@@ -79,7 +78,7 @@
     margin-top: 0;
     max-width: 213px;
     height: 100px;
-    
+
 }
 
 .product-name-text {
@@ -125,7 +124,7 @@
     flex-direction: row;
     width: 130px;
     max-width: 200px;
-    
+
     justify-content: space-between;
 }
 
@@ -148,7 +147,7 @@
     font-stretch: normal;
     font-weight: 400;
     letter-spacing: 0.6px;
-    margin-top: 4px;    
+    margin-top: 4px;
 }
 
 .product-sale-logo {

@@ -1,5 +1,5 @@
 #main-section-5 {
-    display:flex;
+    display: flex;
     justify-content: center;
     height: 500px;
 }
@@ -8,8 +8,8 @@
     width: 1140px;
     height: 450px;
     display: flex;
-	background-image: url("../pictures/spa-hero.jpg");
-	margin: auto;
+    background-image: url("../pictures/spa-hero.jpg");
+    margin: auto;
     justify-content: center;
 }
 
@@ -33,4 +33,3 @@
     display: flex;
     margin: auto;
 }
-

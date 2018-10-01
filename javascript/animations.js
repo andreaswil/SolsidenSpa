@@ -85,7 +85,7 @@ function mouseOutMenuButtonUnderline(e) {
 /* Runs when document is finished loading, every div wrapped in a div with class cover will fade in, as to make the loading of the page more fluid */
 
 
-function uncover () {
+function uncover() {
     var children = $(".cover");
     for (var i = 0; i < children.length; ++i) {
         children[i].style.animationName = "whenLoadedFadeIn";
@@ -97,23 +97,23 @@ function uncover () {
 
 
 
-function removeLoader () {
+function removeLoader() {
     document.getElementById("loader").style.display = "none";
 }
 
 
-if(document.readyState === 'ready' || document.readyState === 'complete') {
+if (document.readyState === 'ready' || document.readyState === 'complete') {
     removeLoader();
     uncover();
-    
+
 } else {
-  document.onreadystatechange = function () {
-    if (document.readyState == "complete") {
-        removeLoader();
-        uncover();
-        
+    document.onreadystatechange = function () {
+        if (document.readyState == "complete") {
+            removeLoader();
+            uncover();
+
+        }
     }
-  }
 }
 
 

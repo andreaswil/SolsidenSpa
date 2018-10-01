@@ -13,7 +13,8 @@
     display: flex;
     justify-content: space-between;
     min-width: 1140px;
-   
+    max-height: 380px;
+
 }
 
 .circle {

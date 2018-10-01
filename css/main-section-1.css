@@ -1,11 +1,11 @@
 #main-section-1 {
-	display: flex;
+    display: flex;
     flex-direction: column;
-	max-height: 1600px;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: white;
+    max-height: 1600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
 }
 
 #main-section-1-pictures-frame {
@@ -20,23 +20,23 @@
 
 
 #large-picture-frame-left {
-	display: flex;
-	background-color: white;
-	width: 560px;
+    display: flex;
+    background-color: white;
+    width: 560px;
     height: 599px;
 }
 
 
 #large-picture-frame-right {
-	display: flex;
-	background-color: white;
-	width: 560px;
+    display: flex;
+    background-color: white;
+    width: 560px;
     height: 599px;
     margin-right: 0px;
     flex-wrap: wrap;
 }
 
-#large-picture-frame-right-upper-part{
+#large-picture-frame-right-upper-part {
     display: flex;
     height: 455px;
     width: 560px;
@@ -46,7 +46,7 @@
 #semilarge-picture-frame {
     display: flex;
     width: 270px;
-    height: 455px;  
+    height: 455px;
 }
 
 #small-pictures-frame {
@@ -55,7 +55,7 @@
     justify-content: space-between;
     height: 455px;
     width: 270px;
-    
+
 }
 
 #small-picture-frame-1 {
@@ -75,13 +75,13 @@
     display: flex;
     align-self: flex-end;
     justify-content: space-between;
-    
+
     min-height: 114px;
-    
+
 }
 
 #bottom-picture-frame {
-    display:flex;
+    display: flex;
     width: 560px;
     height: 124px;
 }
@@ -96,12 +96,12 @@
 }
 
 #large-button-left {
-  	display: flex;
+    display: flex;
     justify-content: center;
-	background-color: #1e5a62;
+    background-color: #1e5a62;
     width: 559.51px;
     height: 60px;
-    
+
 }
 
 #large-button-left-text {
@@ -121,10 +121,10 @@
 #large-button-right {
     display: flex;
     justify-content: center;
-	background-color: #43b5a5;
+    background-color: #43b5a5;
     width: 559.51px;
     height: 60px;
-    
+
 }
 
 #large-button-right-text {
