@@ -71,7 +71,9 @@ function mouseOutMenuButtonUnderline(e) {
 }
 
 /* Runs when document is finished loading, every div wrapped in a div with class cover will fade in, as to make the loading of the page more fluid */
-$(document).ready(function () {
+
+
+function uncover () {
     var children = $(".cover");
     for (var i = 0; i < children.length; ++i) {
         children[i].style.animationName = "whenLoadedFadeIn";
@@ -79,7 +81,19 @@ $(document).ready(function () {
         children[i].style.opacity = "100";
 
     }
-});
+}
+
+
+if(document.readyState === 'ready' || document.readyState === 'complete') {
+  uncover();
+} else {
+  document.onreadystatechange = function () {
+    if (document.readyState == "complete") {
+      uncover();
+    }
+  }
+}
+
 
 /* Extends Jquery with a viewport function. The viewport function checks if an elemnt is in the current viewport*/
 
